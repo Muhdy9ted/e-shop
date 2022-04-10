@@ -6,7 +6,7 @@
   "engines": {"node": "16.13.0"},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "MONGO_USER=moohdy MONGO_PASSWORD=moohdy9ted%3F MONGO_DEFAULT_DATABASE=shop node app.js",
+    "start": "node app.js",
     "start-server": "node app.js",
     "start:dev": "nodemon app.js"
   },
